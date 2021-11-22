@@ -1,0 +1,19 @@
+h1 {
+	color: red;
+}
+h2 {
+	color: blue;
+}
+fieldset {
+	background: yellow;
+	position: absolute;
+	left: 575;
+}
+#login {
+	
+	color: black;
+	display: inline;
+
+}
+
+}

@@ -1,0 +1,71 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Orkhan Company |Qeydiyyat </title>
+	<link rel="stylesheet" type="text/css" href="css/Qeydiyyat.css">
+</head>
+<body>
+<h1 align="center"> Orkhan Company'ə xoş gəlmisiniz</h1>
+<h2 align="center">Qeydiyyat səhifəsi</h2>
+ </form>
+ <fieldset>
+	<form action="/Home/Qeydiyyat">
+		<p>
+			Ad: <br><input type="text" name="Ad" placeholder="Ad yazin" required> 
+        </p>
+        <p>
+			Soyad: <br><input type="text" name="Soyad" placeholder="Soyad yazin" required > 
+        </p>
+
+		<p>
+			Login: <br><input type="text" name="Login" placeholder="Login yazin" required=""> 
+        </p>
+        <p>
+        	Doğum tarixi: <br> <input type="Date" name="Born" required="">
+        </p>
+
+	     <p>
+		E-mail: <br> <input type="email" name="email" placeholder="E-mail" required="">
+	     </p>
+	     <p>
+     Parol:<br><input type="password" name="Parol" required="">
+     </p>
+     <p>
+      Təkrar Parol:<br><input type="password" name="Parol" required="">
+     </p>
+
+     <p>
+	 Cinsiyyət
+     </p>
+     <p>
+	 Kişi <input type="radio" name="Cinsiyyet" required="Cinsiyyet">
+	 Qadın <input type="radio" name="Cinsiyyet" required="Cinsiyyet">
+     </p>
+     <p>
+	 Hobilər <br>
+	 Kitab oxumaq <input type="checkbox" name="Hobiler">
+	 Idman <input type="checkbox" name="Hobiler">
+	 Yoxdu <input type="checkbox" name="Hobiler">
+     </p>
+     <p>
+	 Xosladığın fənn <br>
+	 <select multiple name="fənnler" required="">
+		<option>Riyazi Analiz</option>
+		<option>Program əsasları</option>
+		<option>Xətti cəbr</option>
+		<option>Xarici dil</option>
+		<option>Arxitektur</option>
+		<option>Az.Tarix</option> 
+	 </select>
+     <p>
+        <form action="/Home/Login">
+     		<a href="Login.html"><input type="submit" value="Qeydiyyat"></a> <br>
+        </form>
+      </p>
+	 <p>
+      <a href="Login.html">Artıq qeydiyyatim var</a>
+      </p>
+     </fieldset>
+     </form>
+</body>
+</html>
