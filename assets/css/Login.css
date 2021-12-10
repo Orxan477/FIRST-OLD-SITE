@@ -1,0 +1,54 @@
+h1 {
+	color: red;
+}
+h2 {
+	color: blue;
+}
+.loginPanel {
+	background: yellow;
+	position: absolute;
+	left: 575;
+	color: black
+}
+.qeydiyyatPanel{
+	position: absolute;
+	left: 532;
+}
+#login {
+	
+	color: black;
+	display: inline;
+
+}
+
+body{
+	background-image: white;
+}
+fieldset {
+	background: brown;
+	color: #fff;
+	position: absolute;
+	
+}
+h1 {
+	color: red;
+}
+.yazih1 {
+	color: brown;
+}
+.yazip {
+	color: blue;
+}
+.index{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+}
+.index button{
+	font-size: 30px;
+}
+.index button:hover{
+	background-color: red;
+	color: black;
+}
